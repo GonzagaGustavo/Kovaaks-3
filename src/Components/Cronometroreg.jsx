@@ -24,7 +24,7 @@ const [display, setDisplay] = useState("")
     }, 900);
   }
     window.onload = () => {
-      var duration = 20
+      var duration = 60 * 3
       startTimer(duration)
     }
   return (

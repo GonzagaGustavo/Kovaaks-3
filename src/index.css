@@ -41,3 +41,39 @@ code {
   width: 20%;
   height: 20%;
 }
+h1{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 68px;
+  color: aliceblue;
+}
+.jogo{
+  margin-left: 20%;
+  font-size: 43px;
+}
+button{
+  margin-left: 40%;
+  font-size: 28px;
+  border-radius: 24px;
+  width: 500px;
+  height: 150px ;
+  background-color: rgb(2, 103, 255);
+  cursor: pointer;
+}
+button:hover {
+  background-color: #c05a5a; /* Green */
+  color: white;
+}
+.inicio{
+  background-image: linear-gradient(180deg, red, blue);
+  margin-left: 15%;
+  border-radius: 25px;
+  width: 950px;
+  height: 376px;
+
+}
+.oi{
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+}
