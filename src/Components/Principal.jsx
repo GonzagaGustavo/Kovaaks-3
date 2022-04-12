@@ -36,7 +36,7 @@ function Principal() {
             <p>1º: Gustavo Gonzaga <span className="pt">81pt</span></p>
             </div>
         </header>
-        <div className="point" onMouseEnter={mudar}></div>
+        <div className="point" onClick={mudar}></div>
       </div>
     );} else {
       return (

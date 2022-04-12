@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Inicio() {
   return (
@@ -7,7 +8,7 @@ function Inicio() {
     <div className="inicio">
         <h1>Olá seja bem vindo</h1>
         <h2 className="jogo">Vamos jogar?</h2>
-        <a href='/Jogar'><button>Start!</button></a>
+        <Link to={'/Jogar'}><button>Start!</button></Link>
     </div>
 
   )
